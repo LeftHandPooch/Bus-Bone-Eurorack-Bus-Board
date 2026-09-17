@@ -18,14 +18,17 @@ A 14-header Eurorack passive/filtered bus-board
 
 
 ## TECHNICAL DETAILS
-- 4HP - 128.5mm (H) x 20mm (W) x ~50.5mm (D).
-- +12V at 1.5A, -12V at 500mA and 5V at 1A, enough current to supply a small to medium eurorack case, just needs any old external 15-18V DC powerbrick.
-- Reverse polarity protection - accidentally using a negative centre powerplug won't do any harm, shorting the supply briefly also fine. 
-- Will run fine (hotter) on up to 25V DC but voltage will sag at input lower than ~14.7DC.
-- Two 16-pin IDC headers on the board - use flying bus-cables or (ideally) passive busboards to distribute this to your modules.
-- ISOLATED AND STIFF 12V RAILS!
-- Resettable fuse (for transient spikes + inrush current) in-line with an optional 5V supply (pins 11+12 as per Doepfer standard).
-- Pass-thru power jack internally/up the back of the device for power supply options. Allows use of one 15V powerbrick to supply multiple power modules.
+- DIMENSIONS: 40mm (H) x 300mm (W) x 15mm (D)
+- +12V, -12V and +5V.
+- High quality PCBs with wide copper traces to accommodate high power loads.
+- Spade connectors on either end to connect alternative PSUs
+- Power-noise filtering caps
+- 14 generously-spaced, keyed 16-pin box-headers
+- Blue/Yellow/Green indicator LEDs for each power rail
+- Open-source design - https://github.com/LeftHandPooch/Bus-Bone-Eurorack-Bus-Board
+- Eight 3.4mm mounting holes available to mechanically secure the board to your case (3M screws/bolts and nylon washers recommended)
+- Handmade in Meanjin, Australia by Brisbane’s hirsute hound, Lefthandpooch.
+- 17/09/26 Built stock currently available to buy online or in-person in Brisbane @ HYLIN Devices - https://hylindevices.com.au/products/pp-02-bus-bone
 
 ## Changelog
 
